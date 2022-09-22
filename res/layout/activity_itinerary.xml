@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.Itinerary"
+    android:background="@color/primary"
+    android:paddingTop="10sp">
+
+    <Button
+        android:id="@+id/backBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:onClick="BackToMainAction"
+        android:textSize="15sp"
+        android:paddingTop="5sp"
+        android:paddingStart="15sp"
+        android:paddingEnd="15sp"
+        android:paddingBottom="5sp"/>
+
+
+
+    <ListView
+        android:id="@+id/eventLV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:text="Create New Plan"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:onClick="newEventAction"
+        android:textSize="20sp"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
